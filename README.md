@@ -1,4 +1,1 @@
-# udacity-nanodegree
-holds projects and notes from Udacity's Full Stack Web Development Nanodegree program
-
- - started program July 22, 2017
+Project on hold as of July 1, 2017 -> circling back in a coulple months
