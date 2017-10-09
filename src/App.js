@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
 import $ from 'jquery';
+import profilePic from './images/lbuthman.png';
+
+class TitleBar extends Component {
+  render() {
+    return(
+      <nav>
+        <div className="nav-wrapper">
+          <a className="brand-logo center">The Honest Coder</a>
+        </div>
+      </nav>
+    );
+  }
+}
 
 class TopNav extends Component {
 
   componentDidMount() {
     $(document).ready(function(){
-      $('ul.tabs').tabs();
+      $('ul.tabs').tabs({swipeable: true});
     });
   }
 
@@ -36,7 +49,10 @@ class App extends Component {
 
   render() {
     return (
-      <TopNav/>
+      <div>
+        <TitleBar/>
+        <TopNav/>
+      </div>
     );
   }
 }
