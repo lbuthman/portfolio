@@ -19,3 +19,7 @@
 .tabs .indicator {
     background-color: #446ccf !important;
 }
+
+#profile-pic {
+    max-height: 200px;
+}

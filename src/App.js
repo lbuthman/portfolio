@@ -15,11 +15,33 @@ class TitleBar extends Component {
   }
 }
 
+function Contact() {
+
+  return(
+    <section className="container center">
+      <div className="col s12">
+        <div className="card">
+          <div className="card-image">
+            <img src={profilePic} alt="That's me" className="responsive-img materialboxed" id="profile-pic"/>
+          </div>
+          <div className="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div className="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 class TopNav extends Component {
 
   componentDidMount() {
     $(document).ready(function(){
-      $('ul.tabs').tabs({swipeable: true});
+      $('ul.tabs').tabs();
     });
   }
 
@@ -39,11 +61,14 @@ class TopNav extends Component {
         <div id="experience" className="col s12">Here is my experience.</div>
         <div id="resume" className="col s12">Here is a beautiful resume you can view/print.</div>
         <div id="education" className="col s12">Here is info about my education.</div>
-        <div id="contact" className="col s12">Here is how to contact me.</div>
+        <div id="contact" className="col s12">
+          <Contact/>
+        </div>
       </div>
     );
   }
 }
+
 
 class App extends Component {
 
