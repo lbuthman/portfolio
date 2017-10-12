@@ -46,6 +46,8 @@ function Projects() {
 
       <div>
         <h4>Batman vs. Joker Tic Tac Toe</h4>
+        <p>https://batman-tictactoe.herokuapp.com/</p>
+        <p>https://github.com/lbuthman/js-tictactoe</p>
       </div>
 
       <div>
