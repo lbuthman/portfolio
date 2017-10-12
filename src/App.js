@@ -42,6 +42,8 @@ function Projects() {
     <section className="container center">
       <div>
         <h4>Maria Rae's Gourmet Foods</h4>
+        <p>https://maria-raes-testing-site.herokuapp.com/</p>
+        <p>Unfortunately, the code for this project is not available on GitHub.</p>
       </div>
 
       <div>
