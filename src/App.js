@@ -29,9 +29,27 @@ function Contact() {
               I am convenient because I require little markup to use effectively.</p>
           </div>
           <div className="card-action">
-            <a href="#">This is a link</a>
+            {/*<a href="#">This is a link</a>*/}
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function Projects() {
+  return (
+    <section className="container center">
+      <div>
+        <h4>Maria Rae's Gourmet Foods</h4>
+      </div>
+
+      <div>
+        <h4>Batman vs. Joker Tic Tac Toe</h4>
+      </div>
+
+      <div>
+        <h4>Rad Calculator</h4>
       </div>
     </section>
   );
@@ -57,7 +75,9 @@ class TopNav extends Component {
             <li className="tab col s3"><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div id="projects" className="col s12">Here are a bunch of projects I did.</div>
+        <div id="projects" className="col s12">
+          <Projects/>
+        </div>
         <div id="experience" className="col s12">Here is my experience.</div>
         <div id="resume" className="col s12">Here is a beautiful resume you can view/print.</div>
         <div id="education" className="col s12">Here is info about my education.</div>
