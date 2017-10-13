@@ -23,3 +23,7 @@
 #profile-pic {
     max-height: 200px;
 }
+
+ul>li {
+    list-style-type: lao !important;
+}

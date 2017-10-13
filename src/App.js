@@ -59,6 +59,23 @@ function Projects() {
   );
 }
 
+function Resume() {
+  return(
+    <article className="container">
+      <h4 className="center">The Link below will do one of the following things:</h4>
+      <div className="row">
+        <ul className="col s6 offset-s3 left">
+          <li>Direct you to a PDF of my Resume.</li>
+          <li>Steal your bank account information.</li>
+          <li>Launch a nuclear attack against Mars.</li>
+          <li>Rick Roll you.</li>
+        </ul>
+      </div>
+      <h5 className="center"><a href="#">Link to my resume</a></h5>
+    </article>
+  );
+}
+
 class TopNav extends Component {
 
   componentDidMount() {
@@ -83,7 +100,9 @@ class TopNav extends Component {
           <Projects/>
         </div>
         <div id="experience" className="col s12">Here is my experience.</div>
-        <div id="resume" className="col s12">Here is a beautiful resume you can view/print.</div>
+        <div id="resume" className="col s12">
+          <Resume/>
+        </div>
         <div id="education" className="col s12">Here is info about my education.</div>
         <div id="contact" className="col s12">
           <Contact/>
