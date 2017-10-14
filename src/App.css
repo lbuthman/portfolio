@@ -1,5 +1,7 @@
-.brand-logo {
+.title {
     font-size: 1.3em !important;
+    margin: 0 !important;
+    padding-top: 20px;
 }
 
 .nav-wrapper {
