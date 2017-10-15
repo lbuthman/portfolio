@@ -8,7 +8,7 @@ class TitleBar extends Component {
     return(
       <nav>
         <div className="nav-wrapper">
-          <h5 className="center title">The Honest Coder - Luke Buthman <br/><a href="#">(pdf resume)</a></h5>
+          <h5 className="center title">The Honest Coder - Luke Buthman <br/><a class="material-icons">attachment</a><a href="#">pdf resume</a></h5>
         </div>
       </nav>
     );
