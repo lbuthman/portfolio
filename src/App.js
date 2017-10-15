@@ -42,18 +42,21 @@ function Projects() {
     <section className="container center">
       <div>
         <h4>Maria Rae's Gourmet Foods</h4>
+        <p><a href="https://placeholder.com"><img className="responsive-img" src="http://via.placeholder.com/500x300"/></a></p>
         <p>https://maria-raes-testing-site.herokuapp.com/</p>
         <p>Unfortunately, the code for this project is not available on GitHub.</p>
       </div>
 
       <div>
         <h4>Batman vs. Joker Tic Tac Toe</h4>
+        <p><a href="https://placeholder.com"><img className="responsive-img" src="http://via.placeholder.com/500x300"/></a></p>
         <p>https://batman-tictactoe.herokuapp.com/</p>
         <p>https://github.com/lbuthman/js-tictactoe</p>
       </div>
 
       <div>
         <h4>Rad Calculator</h4>
+        <p><a href="https://placeholder.com"><img className="responsive-img" src="http://via.placeholder.com/500x300"/></a></p>
       </div>
     </section>
   );
