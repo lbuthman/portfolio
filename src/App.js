@@ -43,7 +43,9 @@ function Projects() {
       <div>
         <h4>Maria Rae's Gourmet Foods</h4>
         <p><a href="https://placeholder.com"><img className="responsive-img" src="http://via.placeholder.com/500x300"/></a></p>
+        <h5>Hosted Site</h5>
         <p>https://maria-raes-testing-site.herokuapp.com/</p>
+        <h5>GitHub Code</h5>
         <p>Unfortunately, the code for this project is not available on GitHub.</p>
       </div>
 
@@ -57,6 +59,8 @@ function Projects() {
       <div>
         <h4>Rad Calculator</h4>
         <p><a href="https://placeholder.com"><img className="responsive-img" src="http://via.placeholder.com/500x300"/></a></p>
+        <p>future hosted website</p>
+        <p>https://github.com/lbuthman/js-calculator</p>
       </div>
     </section>
   );
